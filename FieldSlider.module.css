@@ -1,0 +1,32 @@
+/* FieldSlider.module.css */
+.sliderContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  margin-bottom: 4px;
+  font-weight: 500;
+}
+
+.sliderWrapper {
+  display: flex;
+  align-items: center;
+}
+
+.inputRange {
+  flex: 1;
+}
+
+.valueDisplay {
+  margin-left: 8px;
+  min-width: 40px;
+  text-align: right;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
